@@ -16,12 +16,12 @@ export function TeamSection() {
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-12 sm:mb-16">
             <div className="space-y-4 sm:space-y-6 order-2 lg:order-1">
                 <h3 className="text-xl sm:text-2xl font-bold text-primary">Full-Stack Expertise</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
+                <p className="text-sm sm:text-base text-muted-foreground text-justify">
                 Our team combines technical depth with creative vision, covering everything from 
                 frontend and backend development to mobile apps, UI/UX design, and business intelligence. 
                 This comprehensive expertise allows us to handle projects end-to-end.
                 </p>
-                <p className="text-sm sm:text-base text-muted-foreground">
+                <p className="text-sm sm:text-base text-muted-foreground text-justify">
                 Whether you need a simple website, a complex mobile application, or advanced business 
                 automation tools, our specialists work collaboratively to deliver solutions that exceed expectations.
                 </p>

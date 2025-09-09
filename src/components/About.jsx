@@ -55,12 +55,12 @@ export function AboutSection() {
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <div>
                 <h3 className="text-xl sm:text-2xl font-bold mb-4 text-primary">Our Expertise</h3>
-                <p className="text-sm sm:text-base text-muted-foreground mb-4 sm:mb-6">
+                <p className="text-sm sm:text-base text-muted-foreground mb-4 sm:mb-6 text-justify">
                     Ozyntria Tech specializes in delivering end-to-end technology solutions that drive growth 
                     and innovation. Our multidisciplinary team combines technical expertise with creative 
                     vision to solve complex business challenges across various industries.
                 </p>
-                <p className="text-sm sm:text-base text-muted-foreground">
+                <p className="text-sm sm:text-base text-muted-foreground text-justify">
                     Whether you're a startup looking to build your first digital product, an established 
                     business seeking to modernize your systems, or an NGO aiming to expand your digital 
                     reach, we have the tools and expertise to bring your vision to life.

@@ -8,10 +8,11 @@ export function BrandingHeader() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const navigation = [
+        { name: "Home", href: "#home" },
         { name: "About", href: "#about" },
         { name: "Services", href: "#services" },
         { name: "Portfolio", href: "#portfolio" },
-        { name: "Brand", href: "#brand" },
+        {/*{ name: "Brand", href: "#brand" },*/},
         { name: "Team", href: "#team" },
         { name: "Contact", href: "#contact" },
     ];
@@ -22,6 +23,7 @@ export function BrandingHeader() {
             <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
                 <img src={logo} alt="Ozyntria Tech" className="h-6 w-auto sm:h-8" />
+                <h2 className="font-bold text-2xl sm:text-1">Ozyntria Tech</h2>
             </div>
             
             {/* Desktop Navigation */}
@@ -39,7 +41,7 @@ export function BrandingHeader() {
             
             <div className="flex items-center space-x-2 sm:space-x-4">
                 <ThemeToggle />
-                <Button size="sm" className="hidden sm:inline-flex">
+                <Button size="sm" className="hidden sm:inline-flex cursor-pointer">
                 Get Started
                 </Button>
                 

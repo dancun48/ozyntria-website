@@ -75,7 +75,7 @@ export function PortfolioSection() {
                     </div>
                     <CardTitle className="text-base sm:text-lg text-primary">{project.title}</CardTitle>
                 </CardHeader>
-                <CardContent className="pt-0">
+                <CardContent className="pt-0 text-justify">
                     <p className="text-xs sm:text-sm text-muted-foreground mb-3 sm:mb-4 leading-relaxed">
                     {project.description}
                     </p>
@@ -90,13 +90,13 @@ export function PortfolioSection() {
                     ))}
                     </div>
                     <Button 
-                    variant="outline" 
-                    size="sm" 
-                    className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground text-xs sm:text-sm"
-                    onClick={() => window.open(project.link, '_blank')}
+                        variant="outline" 
+                        size="sm" 
+                        className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground text-xs sm:text-sm"
+                        onClick={() => window.open(project.link, '_blank')}
                     >
                     <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4 mr-2" />
-                    Live Demo
+                        Live Demo
                     </Button>
                 </CardContent>
                 </Card>
@@ -107,7 +107,7 @@ export function PortfolioSection() {
             <p className="text-sm sm:text-base text-muted-foreground mb-4 sm:mb-6">
                 These projects represent just a fraction of our work. Each solution is tailored to meet specific business needs.
             </p>
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer">
                 Discuss Your Project
             </Button>
             </div>

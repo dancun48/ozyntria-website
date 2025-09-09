@@ -20,7 +20,7 @@ export default function App() {
                         <AboutSection />
                         <ServicesSection />
                         <PortfolioSection />
-                        <BrandSection />
+                        {/*<BrandSection />*/}
                         <TeamSection />
                     </main>
                 <BrandingFooter />
