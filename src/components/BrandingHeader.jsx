@@ -12,7 +12,7 @@ export function BrandingHeader() {
         { name: "About", href: "#about" },
         { name: "Services", href: "#services" },
         { name: "Portfolio", href: "#portfolio" },
-        {/*{ name: "Brand", href: "#brand" },*/},
+        //{ name: "Brand", href: "#brand" },
         { name: "Team", href: "#team" },
         { name: "Contact", href: "#contact" },
     ];
