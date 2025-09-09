@@ -1,6 +1,5 @@
 import { Card, CardContent } from "../ui/Card";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
-import team from '../assets/images/team1.jpg';
 
 export function TeamSection() {
     return (
@@ -43,7 +42,7 @@ export function TeamSection() {
             </div>
             <div className="relative order-1 lg:order-2">
                 <ImageWithFallback
-                src={team}
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwbWVldGluZyUyMHRlY2h8ZW58MXx8fHwxNzU3MjgyOTI3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                 alt="Team collaboration"
                 className="rounded-2xl shadow-xl w-full h-[250px] sm:h-[300px] md:h-[400px] object-cover"
                 />
