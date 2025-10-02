@@ -58,7 +58,7 @@ export function PortfolioSection() {
                     <Button 
                         variant="secondary" 
                         size="sm"
-                        className="bg-white text-primary hover:bg-white/90"
+                        className="bg-white text-primary hover:bg-white/90 cursor-pointer"
                         onClick={() => window.open(project.link, '_blank')}
                     >
                         <ExternalLink className="w-4 h-4 mr-2" />
@@ -92,7 +92,7 @@ export function PortfolioSection() {
                     <Button 
                         variant="outline" 
                         size="sm" 
-                        className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground text-xs sm:text-sm"
+                        className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground text-xs sm:text-sm cursor-pointer"
                         onClick={() => window.open(project.link, '_blank')}
                     >
                     <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4 mr-2" />
@@ -108,7 +108,7 @@ export function PortfolioSection() {
                 These projects represent just a fraction of our work. Each solution is tailored to meet specific business needs.
             </p>
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer">
-                Discuss Your Project
+                <a href="#contact">Discuss Your Project</a>
             </Button>
             </div>
         </div>

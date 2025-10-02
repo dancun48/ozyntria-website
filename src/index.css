@@ -2,7 +2,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-    font-family: Rubik, Archivo, Inter, 'sans serif';
+    font-family: 'SF Pro';
     --font-size: 16px;
     --background: #f5f5f5;
     --foreground: #08376b;
@@ -55,7 +55,7 @@
     --secondary: #2a3441;
     --secondary-foreground: #f5f5f5;
     --muted: #232a33;
-    --muted-foreground: #9ca3af;
+    --muted-foreground: #62656b;
     --accent: #2a3441;
     --accent-foreground: #f5f5f5;
     --destructive: #ef4444;

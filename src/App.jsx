@@ -7,8 +7,10 @@ import { PortfolioSection } from "./components/PortfolioSection";
 import { BrandSection } from "./components/BrandSection";
 import { TeamSection } from "./components/TeamSection";
 import { BrandingFooter } from "./components/BrandingFooter";
+
 //import './index.css';
 import '../src/styles/Global.css'
+import BackToTop from "./components/BackToTop";
 
 export default function App() {
     return (
@@ -20,10 +22,10 @@ export default function App() {
                         <AboutSection />
                         <ServicesSection />
                         <PortfolioSection />
-                        {/*<BrandSection />*/}
                         <TeamSection />
                     </main>
                 <BrandingFooter />
+                <BackToTop />
             </div>
         </ThemeProvider>
     );

@@ -12,7 +12,6 @@ export function BrandingHeader() {
         { name: "About", href: "#about" },
         { name: "Services", href: "#services" },
         { name: "Portfolio", href: "#portfolio" },
-        //{ name: "Brand", href: "#brand" },
         { name: "Team", href: "#team" },
         { name: "Contact", href: "#contact" },
     ];
@@ -23,7 +22,7 @@ export function BrandingHeader() {
             <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
                 <img src={logo} alt="Ozyntria Tech" className="h-6 w-auto sm:h-8" />
-                <h2 className="font-bold text-2xl sm:text-1">Ozyntria Tech</h2>
+                <h2 className="font-bold text-2xl sm:text-1"><a href="#home">Ozyntria Tech</a></h2>
             </div>
             
             {/* Desktop Navigation */}
@@ -42,7 +41,7 @@ export function BrandingHeader() {
             <div className="flex items-center space-x-2 sm:space-x-4">
                 <ThemeToggle />
                 <Button size="sm" className="hidden sm:inline-flex cursor-pointer">
-                Get Started
+                    <a href="#contact">Get Started</a>
                 </Button>
                 
                 {/* Mobile menu button */}
@@ -72,7 +71,7 @@ export function BrandingHeader() {
                     </a>
                 ))}
                 <Button size="sm" className="mt-3 w-full sm:hidden">
-                    Get Started
+                    <a href="#contact">Get Started</a>
                 </Button>
                 </div>
             </nav>

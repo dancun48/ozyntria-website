@@ -24,8 +24,8 @@ export function HeroSection() {
                 </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
-                <Button size="lg" className="w-full sm:w-auto cursor-pointer">
-                    Explore Our Work
+                <Button size="lg" className="w-full sm:w-auto cursor-pointer" to="#portfolio">
+                    <a href="#portfolio">Explore Our Work</a>
                 </Button>
                 <Button variant="outline" size="lg" className="w-full sm:w-auto cursor-pointer">
                     Learn More
